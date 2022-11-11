@@ -1,0 +1,55 @@
+.form-control
+{
+    width: 35%;
+    margin: auto;
+}
+body
+{
+    color: snow;
+    text-align: center;
+    background-size: cover; /* This is what makes the background image rescale based on the page size */
+    background-position: center center;     /* Background image is centered vertically and horizontally at all times */
+    background-attachment: fixed;           /* Background image is fixed in the viewport so that it doesn't move when
+    the content's height is greater than the image's height */
+    background-image: url(https://media.zicxa.com/1122982);  /* URL of the image */
+}
+button
+{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    box-shadow: beige 0px 2px 2px, beige 0px 3px 3px;
+}
+h1
+{
+    margin-top: 25px;
+    color:sandybrown;
+}
+.card 
+{
+    /*margin: 0 auto;*/   /*to keep the card in center of the page */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: transparent;
+    color: snow;
+    border: 0.5px solid white;
+}
+ul.myul 
+{
+    display: inline-block;
+    text-align: left;
+}
+.card-text
+{
+    font-style:oblique;
+}
+a
+{
+    margin: 5px 5px;
+    border: 2px dotted gold;
+    padding: 5px;
+    color:cyan;
+}
+h4
+{
+    color:antiquewhite;
+}
